@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/photo_2024-03-28_13-51-10.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+main h2{
+    font-size: 35px;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    margin-bottom: 350px;
+    padding: 100px 0 0 300px;
+    letter-spacing: 5px;
+
+}
+main h1{
+    color: white;
+    font-size: 10vw;
+    font-weight: bold;
+    padding-left: 300px;
+    letter-spacing: 5px;
+}
+/* contener */
+.contener{
+    width: 100%;
+    height: 30vw;
+    background-color: #7DA2A9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding-left: 200px;
+
+
+}
+.contener .text h2{
+    color: white;
+    font-size: 35px;
+    margin-bottom: 10px;
+    padding-left: 50px;
+
+}
+.contener .text h3{
+    font-size: 22px;
+}
+.contener p{
+    color: white;
+    font-size: 18px;
+    line-height: 26px;
+}
+.banner{
+width: 100%;
+height: 50vw;
+}
+.banner h1{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:baseline;
+
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+.cards .card{
+    width: 300px;
+    height: 300px;
+     border: 2px solid red;
+}
+
+.card_read_more{
+    height: 43vw;
+    width: 100%;
+    background-color:#18181E ;
+    /* border:2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+
+}
+.card_read_more h1{
+    color: white;
+    margin-bottom: 20px;
+}
+.card_read_more p{
+    color: white;
+    line-height: 30px;
+}
+.card_read_more .text button{
+    margin-top: 50px ;
+    width: 120px;
+    height: 40px;
+    background-color:#7DA2A9 ;
+    color: white;
+
+}
+.card_read_more button:hover{
+   background-color:#648c94b8  ;
+}
+.card_gallery{
+    width: 100%;
+    height: 106vw;
+    /* border: 2px solid blue; */
+}
+.card_gallery .text{
+    width: 100%;
+    height: 200px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+.card_gallery .text h1{
+    margin-bottom: 30px;
+}
+.card_gallery .text p{
+font-family: "Open Sans", sans-serif;
+}
+.card_img{
+    height: 88%;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card_img .img_1 {
+    gap: 25px;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+.card_5k{
+    width: 100%;
+    height: 23vw;
+    /* border: 2px solid red; */
+    background-color: #7DA2A9;
+}
+.card_5k{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+.card_5k p{
+    font-family: "Open Sans", sans-serif;
+}
+.card_5k .text_2{
+    width: 100px;
+    height: 80px;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.card_img3{
+    width: 100%;
+    height: 35vw;
+    /* border: 2px solid yellow; */
+}
+.card_img3 img{
+   max-width: 100%;
+    max-height: 100%; 
+}
+.contener_1{
+    width: 100%;
+    height: 45vw;
+    border:2px solid red;
+    display: flex;
+    color: white;
+   
+
+
+
+    
+}
+.contener_1 .contener_2{
+    height: 100%;
+    width: 50%;
+    border: 2px solid blue;
+    background-color: #7DA2A9;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.contener_1 h1{
+    margin: 150px 0 0 90px ;  
+}
+.contener_1 p{
+     padding-left: 90px;
+     font-family: "Open Sans", sans-serif;
+}
+.contener_1 .icons{
+    margin-left: 90px ; 
+    display: flex;
+    gap: 20px; 
+}
+
+.contener_1 .contener_3{
+    height: 100%;
+    width: 50%;
+    border: 2px solid blue;
+    background-color: #18181E;
+
+}
+

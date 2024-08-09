@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 80px;
+    width: 100%;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+.card{
+    width: 500px;
+    height: 40px;
+    border:2px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px 0 0 30px;
+}
+
+.card_1{
+    opacity: 0;
+    width: 70px;
+    height: 40px;
+    border: 2px solid green;
+    position:absolute;
+    background-color: white;
+    left: 450px;
+    border-radius: 30px 0 0 30px;
+
+
+}
+.card_1 i{
+    position: relative;
+    top: 9px;
+    left: 30px;
+
+}
+.fa-keyboard{
+    color: grey;
+    position: relative;
+    left: 15px;
+}
+
+
+input{
+    width: 430px;
+    height: 100%;
+    outline: none;
+    border: none;
+   
+
+}
+
+.card_2{
+    width: 50px;
+    height: 40px;
+    border: 2px solid rgb(207, 205, 205);
+    border-radius: 0 30px 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(227, 227, 227);
+}
+/* focus */
+
+input:focus, .card_1{
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* nav{
+    width: 100%;
+    height: 80px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+
+}
+
+.card{
+    width: 650px;
+    height: 50%;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+.cards{
+    width: 600px;
+    height: 100%;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+input{
+    height: 100%;
+    width:500px;
+    /* outline: none; */
+    /* border: none; 
+}
+input:focus  {
+   width: 550px;
+  
+}
+.cards i:nth-child(1){
+    /* opacity: 0; 
+    width: 50px;
+    height: 100%;
+    border: 2px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* nav{
+    width: 100%;
+    height: 80px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    width: 550px;
+    height: 40%;
+    border: 2px solid grey;
+    border-radius: 30px 0 0 30px ;
+}
+.cards i{
+ 
+  position: relative;
+  top: 2.5px;
+  left: 10px;
+  opacity: 0;
+
+}
+
+    
+
+input{
+   width: 500px;
+   height: 100%;
+   text-indent: 15px;
+   font-style: 30px;
+   border: none;
+   outline: none;
+   border-radius: 30px 0 0 30px ;
+}
+.cards:focus input {
+    width: 650px;
+     opacity: 1;  
+}
+
+.keyboard{
+    width: 50px;
+    height: 40%;
+    border: 2px solid green;
+    border-radius: 0 30px 30px 0;
+    
+}
+.keyboard i:nth-child(1){
+    position: relative;
+    top: 5px;
+    left: -30px;
+    color: grey;
+}
+.keyboard i:nth-child(2){
+    position: relative;
+    top: 5px;
+    left: -5px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* nav{
+    width: 100%;
+    height: 80px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cards{
+    width: 40%;
+    height: 40px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+}
+.cards>i{
+    width: 40px;
+    height: 100%;
+    position: relative;
+    top: 10px;
+}
+input{
+    width: 100%;
+    height: 100%;
+    border-radius:30px 0 0 30px;
+    text-indent: 30px;
+    font-size: 20px;
+}
+.search{
+    width: 70px;
+    height: 100%;
+    border: 2px solid blue;
+    border-radius:  0 30px 30px 0 ;
+}
+.search i:nth-child(1){
+  
+    position: relative;
+    top: 10px;
+    left: -40px;
+    color: grey;
+    
+}
+.search i:nth-child(2){
+    position: relative;
+    top: 10px;
+}
+
+input:focus .cards>i{
+    position: relative;
+
+}
+input:focus{
+    width: 150%;
+}
+input:focus::placeholder{
+    text-indent: 50px;
+} */
+

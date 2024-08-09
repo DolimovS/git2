@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.header>button {
+    cursor: pointer;
+    padding: 6px 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: green;
+    color: white;
+    transition: 0.3s;
+}
+
+.header>button:hover {
+    background-color: orange;
+    color: black;
+}
+
+.header {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+table {
+    width: 100%;
+}
+
+
+.modal_wrapper,
+.modal_idet_wrapper{
+    background-color: rgb(214, 211, 211, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red ; */
+    transform: translateY(-100%);
+    /* transition: 0.3s; */
+}
+
+.modal,
+.modal_edit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal>form,
+.modal_edit >form{
+    width: 400px;
+    height: 400px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 3px 2px;
+}
+
+form input {
+    width: 250px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: 2px solid grey;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.button {
+    display: flex;
+    gap: 30px;
+}
+
+.button>button {
+    width: 110px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+}
+
+.button>button:nth-child(1) {
+    background-color: red;
+}
+.button>button:nth-child(2) {
+    background-color: green;
+}
+
+/* message */
+.message{
+    color: red;
+}
+

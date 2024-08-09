@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Inconsolata:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Spice&family=Inconsolata:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Rubik+Scribble&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Dosis:wght@200..800&family=Rubik+Scribble&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: "Bungee Spice", sans-serif;
+
+}
+    
+.text_1{
+    font-family: "Inconsolata", monospace;
+
+
+}
+.text_2{
+
+    font-family: "Bebas Neue", sans-serif;
+
+}
+.text_3{
+    font-family: "Dosis", sans-serif;
+}
+.text_4{
+    font-family: "Rubik Scribble", system-ui;
+
+}
+.text_5{
+    font-family: "Dancing Script", cursive;
+    
+}

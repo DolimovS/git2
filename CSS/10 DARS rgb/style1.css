@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.contener{
+    height: 40vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: gray;
+    background: url(./bmwjpg.jpg);
+    background-position: center ;
+    background-size: cover;
+}
+/* card_1 */
+.card_1{
+    width: 100px;
+    height: 150px;
+    transition: 1s;
+    background-color: blue;
+    overflow: scroll;
+    transition: 1s;
+}
+
+.card_1::-webkit-scrollbar-thumb{
+    width: 8px;
+}
+.card_1::-webkit-scrollbar{
+    width: 10px;
+    height: 0;
+}
+.card_1::-webkit-scrollbar-track{
+    background: white;
+}
+.card_2::-webkit-scrollbar-thumb{
+background:linear-gradient(red,yellow, green);
+border-radius: 10px;
+
+}
+.box_1:hover .card_1{
+    width: 300px;
+    height: 400px;
+    translate: 1s;
+    background-color: blanchedalmond;
+    opacity: 0.5;
+}
+/* card_2 */
+ .card_2{
+    width: 100px;
+    height: 150px;
+    transition: 1s;
+    background-color: pink;
+    overflow: scroll;
+    transition: 1s;
+}
+.card_2::-webkit-scrollbar{
+    width: 13px;
+    height: 0;
+}
+.card_2::-webkit-scrollbar-thumb{
+    width: 10px;
+}
+.card_2::-webkit-scrollbar-track{
+    background: yellow;
+}
+.card_1::-webkit-scrollbar-thumb{
+    background:linear-gradient(green,pink,red);
+    border-radius: 10px;
+    
+    }
+    .box_2:hover .card_2{
+        width: 300px;
+        height: 400px;
+        translate: 1s;
+        background-color: rgb(0, 183, 255);
+    }
+    /* card_3 */
+ .card_3{
+    width: 100px;
+    height: 150px;
+    transition: 1s;
+    background-color: red;
+    overflow: scroll;
+    transition: 1s;
+}
+.card_3::-webkit-scrollbar{
+    width: 13px;
+    height: 0;
+}
+.card_3::-webkit-scrollbar-thumb{
+    width: 10px;
+}
+.card_3::-webkit-scrollbar-track{
+    background: black;
+}
+.card_3::-webkit-scrollbar-thumb{
+    background:linear-gradient(rgb(17, 161, 56),blue,red);
+    border-radius: 10px;
+    
+    }
+    .box_3:hover .card_3{
+        width: 300px;
+        height: 400px;
+        translate: 1s;
+        background-color: rgb(51, 26, 136);
+    }
+
+
+
+
+
+/*::-webkit-scrollbar   scrollni olib teshlab uni boshqaradi  */
+/* .box:nth-child(1)::-webkit-scrollbar{
+    width: 10px;
+}
+.box:nth-child(1)::-webkit-scrollbar-track{
+    background: green;
+    
+}.box:nth-child(1)::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+.box:nth-child(1)::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+}
+.box:nth-child(1)::-webkit-scrollbar-thumb:hover {
+    background: #555;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .box{
+    width: 100%;
+    height: 45vw;
+    background: url(./bmwjpg.jpg);
+}
+.box1{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(203, 19, 203,0.2);
+}
+.box1 p::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+.container::-webkit-scrollbar-track {
+    background: white;
+}
+
+/* Handle */
+.container::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+
+.container::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+}
+
+.container:hover::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+.container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+} */

@@ -1,0 +1,168 @@
+/* 
+pseude-class va pseudo element
+ bazida tegi mavjud bolmagan web sahifa qismini tanllash kk boladi
+ Masalan :
+ paragrafimizni birinchi qatori  yoki birinchi harifini tanlash
+ tugmani ustiga bosishdagi  holat
+ 
+ ushbu holatda CSS bizga bir nechta seloktorlarni taqdim etadi*/
+
+
+/* 
+pseude-class
+a:link -asil ko'rinishi
+a:visited-Tashrif buriygandan keyingi holat
+a:hover -sichqonchani linkning ustida oborganda korinishi
+a:active-sidchqonchani linkning ustiga bosganda gi korinishi */
+
+
+
+/* 
+pseudo elemant
+ elementning belgilangan qismlarini stillar uchun ishlatiladi
+  ::first-line  1 chi linyadagi textni belgilash uchun ishlatiladi
+  ::first-letter  1-chi harfni belgilash uchun
+  ::before  element kontetining boshiga yangi kontent +
+  ::after  -element kontetining orqasiga yangi kontent qo'shish  */
+
+
+
+
+
+ /* a:hover{
+    color:red;
+ } */
+
+
+ /* button:active{
+    background-color: aqua;
+ } */
+
+ button:focus{
+    background-color: rebeccapurple;
+ }
+ ol::first-line{
+    color: red;
+ }
+
+
+ p::first-letter{
+    color: red;
+    font-size: 35px;
+    font-family:sans-serif;
+
+ }
+
+
+
+
+
+ /* amaliyot */
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+   .amaliyot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100dvh;
+    gap: 50px;
+    border: 2px solid red;
+   }
+   .box1{
+    width: 300px;
+    height: 400px;
+    background-color: blue;
+    overflow: hidden;
+   }
+   .box2
+   {
+    width: 300px;
+    height: 400px;
+    background-color: rgba(60, 59, 59, 0.7);
+    transform: translateY(-400px);
+    transition: 1s ease-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+   }
+a{
+    color: white;
+}
+.box1:hover .box2{
+    transform: translateY(0);
+    border-bottom-right-radius:30px ;
+    border-bottom-left-radius: 30px;
+}
+.box3{
+    width: 300px;
+    height: 400px;
+    background-color: blue;
+    overflow: hidden;
+   }
+   .box4
+   {
+    width: 300px;
+    height: 400px;
+    background-color: rgba(60, 59, 59, 0.7);
+    transform: translateY(400px);
+    transition: 1s ease-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .box3:hover .box4{
+    transform: translateY(0);
+    border-top-right-radius:30px ;
+    border-top-left-radius: 30px;
+}
+
+.box5{
+    width: 300px;
+    height: 400px;
+    background-color: blue;
+    overflow: hidden;
+   }
+   .box6
+   {
+    width: 300px;
+    height: 400px;
+    background-color: rgba(60, 59, 59, 0.7);
+    transform: translateX(-300px);
+    transition: 1s ease-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .box5:hover .box6{
+    transform: translateX(0);
+    border-top-right-radius:30px ;
+    border-bottom-right-radius: 30px;
+}
+.box7{
+    width: 300px;
+    height: 400px;
+    background-color: blue;
+    overflow: hidden;
+   }
+   .box8
+   {
+    width: 300px;
+    height: 400px;
+    background-color: rgba(60, 59, 59, 0.7);
+    transform: translateX(300px);
+    transition: 1s ease-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .box7:hover .box8{
+    transform: translateX(0);
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}

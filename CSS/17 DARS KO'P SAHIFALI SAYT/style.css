@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100dvh;
+    background: url(./image/olmaxon.jpg) center/cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+form {
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 350px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    box-shadow: rgba(0, 0, 0, 0.75) 0px 14px 28px,
+     rgba(0, 0, 0, 0.72) 0px 10px 10px;
+    padding: 20px;
+
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.inputs {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.inputs input {
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border: none;
+    text-indent: 5px;
+    /* border: 2px solid black; */
+
+}
+.inputs input::placeholder{
+    text-indent: 5px;
+}
+.buttons{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.sign{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+span{
+    margin-top: 10px;
+}
+.sign>a{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: blueviolet;
+    color: white;
+   margin-top: 15px; 
+   transition: 0.5s;
+
+
+}
+.sign>a:hover{
+    background-color: rgb(69, 22, 113);
+}
+.buttons>a{
+    width: 100%;
+    height: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font:700;
+    text-decoration: none;
+    background-color: rgb(96, 96, 245);
+    transition: 0.5s;
+
+}
+.buttons>a:hover{
+    background-color: blue;
+}
+

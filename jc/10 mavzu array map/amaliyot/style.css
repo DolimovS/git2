@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 1410px;
+    height: 804px;
+    display: flex;
+    align-items:start ;
+   flex-wrap: wrap;
+  gap :30px;
+  
+}
+.box{
+    width: 330px;
+    height: 248px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap :22px;
+    border: 2px solid black;
+}
+.box>p{
+    width: 303px;
+    text-align: start;
+}
+
+

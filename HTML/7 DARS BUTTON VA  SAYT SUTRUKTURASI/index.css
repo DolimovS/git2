@@ -1,0 +1,131 @@
+body{
+    background-color: aliceblue;
+}
+nav{
+    
+   
+}
+.contener
+{
+    display: flex;
+    
+    background-color: rgb(248, 248, 252);
+    height: 100px ;
+    line-height: 100px;
+    margin: auto;
+    
+}
+#kirish-kok{
+    border-color: blue;
+    border-radius: 3px;
+    
+    
+    
+}
+#tashkilot-yashil{
+    
+    border-radius: 3px;
+    border-color: rgb(15, 194, 9);
+    
+    
+    
+  
+}
+.til{
+    
+    border-color: aqua;
+    border-radius: 3px;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: rgba(75, 73, 73, 0.863);
+   
+   
+  }
+  .logo{
+    margin-right: 40px;
+    height: 100px;
+    line-height: 120px;
+  }
+.links{
+    margin-right: 40px;
+   
+}
+.box{
+    display: flex;
+    border: 5px;
+    background-color: white;
+    width: auto;
+    height: auto;
+}
+.box2{
+    border: 5px;
+    background-color: blanchedalmond;
+    border-color: black;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+
+   
+   
+}
+.contener2{
+    color: beige;
+    display: flex;
+    background-color: blue;
+    text-align: center;
+}
+.question{
+    
+    height: 50px;
+    line-height: 70px;
+    margin-left: auto;
+}
+.link{
+    color: beige;
+}
+.H1{
+    left: 30px;
+}
+.submit{
+    background-color: green ;
+}
+.contener3{
+    text-size-adjust:200;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section{ */
+
+    /* margin-left: 300px;
+    margin-right: 300px; */
+/* } */
+/* .box{
+    border: 5px;
+    
+    
+    border-color: rgb(245, 240, 255);
+    background-color: black;
+
+    
+    
+    
+}
+/* 

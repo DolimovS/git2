@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif !important;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1920px;
+    height: 3566px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    overflow: hidden;
+}
+
+button {
+    border: none;
+}
+
+/* navbar */
+nav {
+    width: 1916px;
+    height: 140px;
+    /* border: 2px solid red; */
+    display: flex;
+    position: absolute;
+    /* background-color: white; */
+    box-shadow: 0px 8px 34px 0px rgba(0, 0, 0, 0.12);
+    background: rgb(255, 255, 255);
+}
+
+.logo {
+    margin: 55px 252px 55px 156px;
+}
+
+.link {
+    margin: 57px 79px 57px 0;
+    /* border: 2px solid red; */
+    /* display: flex; */
+
+}
+
+.link>a {
+    width: 94px;
+    height: 26px;
+    color: rgb(161, 139, 127);
+    font-family: Proxima Nova;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-right: 89px;
+}
+/* button */
+
+nav>button {
+    width: 337px;
+    height: 50px;
+    border: 1px solid rgb(161, 139, 127);
+    border-radius: 8px;
+    display: flex;
+    margin: 45px 65px 45px 0;
+}
+nav>button>input {
+    font-size: 25px;
+
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    border-radius: 8px 0 0 8px;
+
+}
+nav>button>a>img{
+    width: 18.85px;
+height: 18.85px;
+margin: 12px 10px;
+/* background: white; */
+/* background: rgb(161, 139, 127); */
+}
+
+.icons {
+    margin: 45px 0;
+}
+
+.icons>a {
+    margin-right: 65px;
+}
+/* section_1 */
+.section_1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* height: 1000px; */
+  /* border: 2px solid blue; */
+  background-image: url(./img/Group\ 8583.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position-y: 312px;
+  background-position-x: 131px;
+  background-color: #F5F5F5;
+  /* background-image: url(./img/Group\ 8583.png); */
+}
+
+.image_2{
+    position: relative;
+    Top:1748px;
+Left:857px;
+}
+.image_3{
+    position: relative;
+    /* Height:1022.88px; */
+    left: -800.18px;
+    Top:1300.71px;
+    transform: rotate(-115.21deg);
+}
+.section_1>.text{
+
+
+
+margin: 229px 803px 90px   801px;
+display: flex;
+flex-direction: column;
+align-items: center;
+z-index: 2;
+}
+.section_1>.text>h1{
+    width: 188px;
+height: 61px;
+color: rgb(159, 98, 51);
+font-family: Proxima Nova;
+font-size: 50px;
+font-weight: 400;
+line-height: 61px;
+letter-spacing: 0%;
+text-align: center;
+/* margin: 229px 870px 0 862px; */
+}
+
+
+/* turlari */
+.turlari{
+    position: relative;
+    top: -2050px;
+    z-index: 2;
+    width: 1378px;
+    /* border: 2px solid red; */
+    display: flex;
+   flex-wrap: wrap;
+
+   column-gap: 238px;
+   row-gap: 65px;
+   margin-bottom: 129px;
+}
+.turlari>.korinish{
+    height: 638px;
+    width: 568px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.korinish>p{
+    color: rgb(124, 124, 124);
+font-family: Proxima Nova;
+font-size: 31px;
+font-weight: 400;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+
+
+
+/* footer_2 */
+.footer_2 {
+    position: relative;
+    top: -2010px;
+    width: 1920px;
+    height: 253px;
+    display: flex;
+    background: linear-gradient(180.46deg, rgb(161, 140, 128) -58.09%, rgb(76, 59, 49) 121.521%);
+}
+.footer_2>.footer_logo{
+    margin: 72px 0 22px 156px;
+  
+}
+
+.footer_2>.footer_logo>p{
+    margin-top: 22px;
+    color: rgb(210, 210, 210);
+font-family: Proxima Nova;
+font-size: 26px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: left;
+}
+.footer_2>.footer_icons{
+    margin: 90px 0 122px 149px;
+    display: flex;
+    gap: 5px;
+
+}
+.footer_2>.footer_icons img{
+    width: 32.26px;
+height: 32.31px;
+}
+.footer_2>.links_1{
+    display: flex;
+    flex-direction: column;
+    margin: 75px 0 122px 149px;
+    gap: 12px;
+}
+.footer_2>.links_1>a{
+    color: rgb(210, 210, 210);
+font-family: Proxima Nova;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+.footer_2>.links_2{
+    display: flex;
+    flex-direction: column;
+    margin: 75px 242px 88px 178px;
+    gap: 12px;
+}
+.footer_2>.links_2>a{
+    color: rgb(210, 210, 210);
+font-family: Proxima Nova;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+
+
+
+
+
+
+/* carta */
+.carta{
+    width: 221px;
+height: 140.2px;
+border: 2px solid red;
+margin: 57px 156px 55px 0;
+}
+
+ 

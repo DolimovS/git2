@@ -1,0 +1,255 @@
+/* body{
+    background-color: rgb(227, 218, 218);
+}
+.contener{
+    width: auto;
+    height: 90px;
+    background-color: rgb(244, 244, 247);
+    margin: 0 auto;
+} */
+
+ *{    
+    /* asosiy 
+    yani hammasiga tasir qiladi */
+    margin: 0;
+    /* yonidagi joyni 0 ga olib keladi */
+    padding: 0;
+    
+
+}
+body{
+    background-color: grey;
+}
+.box{
+    height: 500px;
+    width: 1000px;
+    background-color: rebeccapurple;
+    margin: 0 auto;
+    display: flex;
+    /* bir qatorga yigadi */
+    align-items: center;
+    /* "y" o'qi boyicha harakatlantiadi  */
+    justify-content: space-around; 
+    /* "space-around" 2 yonidan oznadan joy tashlaydi qolgan px ni oraga joylaydi
+       "space-between"  yoidagi joy 0 golgan px ni oraga yoyadi */
+    /* "x" o'qi bo'yicha harakatlantiradi */
+
+
+}
+.box1{
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid black;
+
+}
+.box2{
+    width: 1000px;
+    height: 300px;
+    margin: 10px;  
+    gap: 10px;
+    background-color: blue;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 2px solid black;
+    
+    
+
+
+
+}
+.box21{
+    width:200px;
+    height: 200px;
+    
+    /* margin-left: 15px;
+    margin-right: 15px; */
+    background-color: yellow;
+    border: 1px solid white ;
+
+}
+.box22{
+   width: 300px;
+   height: 200px;
+  
+   background-color: yellow;
+   border: 1px solid white;
+
+
+}
+.box3{
+    width: 1000px;
+    height: 300px;
+    margin: 10px;
+    background-color: blue;
+    margin: 0 auto;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border: 2px solid black;
+    
+
+
+
+}
+.box31{
+    width:200px;
+    height: 200px;
+    /* margin-left: 15px;
+    margin-right: 15px; */
+    background-color: yellow;
+    border: 1px solid white ;
+
+}
+.box33{
+   width: 300px;
+   height: 200px;
+   background-color: yellow;
+   border: 1px solid white;
+
+
+}
+.box4{
+    width: 1000px;
+    height: 300px;
+    margin: 10px;
+    gap: 10px;
+    background-color: blue;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    
+
+
+
+}
+.box41{
+    width:200px;
+    height: 200px;
+    /* margin-left: 15px;
+    margin-right: 15px; */
+   
+    background-color: yellow;
+    border: 1px solid white ;
+
+}
+.box44{
+   width: 300px;
+   height: 200px;
+   
+   background-color: yellow;
+   border: 1px solid white;
+
+
+}
+.box5{
+    width: 1000px;
+    height: 300px;
+    margin: 10px;
+    background-color: blue;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+    
+
+
+
+}
+.box51{
+    width:200px;
+    height: 200px;
+    background-color: yellow;
+    border: 1px solid white ;
+
+}
+.box55{
+   width: 300px;
+   height: 200px;
+   background-color: yellow;
+   border: 1px solid white;
+
+
+}
+.box6{
+    width: 1000px;
+    height: 300px;
+    margin: 10px;
+    background-color: blue;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid black;
+    
+
+
+
+}
+.box61{
+    width:200px;
+    height: 200px;
+    background-color: yellow;
+    border: 1px solid white ;
+
+}
+.box66{
+   width: 300px;
+   height: 200px;
+   
+   background-color: yellow;
+   border: 1px solid white;
+
+
+}
+.box7{
+    /* gap: 10px; */
+    width: 1000px;
+    height: 300px;
+    margin: 10px;
+    background-color: blue;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    
+
+
+
+}
+.box71{
+    width:200px;
+    height: 200px;
+    background-color: yellow;
+    border: 1px solid white ;
+
+}
+.box77{
+   width: 300px;
+   height: 200px;
+   
+   background-color: yellow;
+   border: 1px solid white;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

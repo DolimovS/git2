@@ -1,0 +1,30 @@
+body{
+    background-color: rgba(8, 8, 78, 0.386);
+}
+.tartibli{
+    color: brown;
+    
+}
+td{
+    background-color: rgb(20, 144, 30);
+    border-radius: 10px;
+   
+}
+.qizil{
+    background-color: rgb(226, 23, 23);
+}
+th{
+    border-radius: 15px;
+}
+.yoz{
+    background-color: rgb(11, 242, 38);
+}
+.kuz{
+    background-color: rgb(223, 238, 13);
+}
+.qish{
+    background-color: rgb(233, 235, 237);
+}
+.bahor{
+    background-color: rgb(255, 192, 203);
+}

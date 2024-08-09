@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* navbar */
+nav {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px 0 50px;
+    /* border: 2px solid red; */
+}
+
+.innav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid blue; */
+    width: 789px;
+    height: 80px;
+}
+/* nav link */
+li{
+    width: 512px;
+    height: 80px;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li:nth-child(1){
+    width: 194px;
+    height: 80px;
+    /* border:2px solid red; */
+
+}
+ul li:nth-child(2){
+    width: 127px;
+    height: 80px;
+    /* border:2px solid red; */
+
+}
+ul li:nth-child(3){
+    width: 73px;
+    height: 80px;
+    /* border:2px solid red; */
+
+}
+ul li:nth-child(4){
+    width: 68px;
+    height: 80px;
+    /* border:2px solid red; */
+
+}
+ul li:nth-child(5){
+    width: 54px;
+    height: 80px;
+    /* border:2px solid red; */
+
+}
+.innav i{
+    position: absolute;
+    right: 20px;
+}
+/* nav button */
+.buttons button:nth-child(1){
+    width: 114px;
+    height: 40px;
+    background: #FFD063;
+    border-radius: 4px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    color: #013A4C;
+    border: none;
+}
+
+.buttons button:nth-child(2){
+    width: 75px;
+    height: 40px;
+    font-size: 13px;
+    line-height: 18px;
+    font-family: "Work Sans", sans-serif;
+
+    border-radius: 4px;
+color:#013A4C;
+}
+.innav ul {
+    display: flex;
+    list-style: none;
+}
+
+.innav ul li a {
+    text-decoration: none;
+    color: black;
+}
+/* ayol va quyonlar */
+.cards {
+    width: 100%;
+    height: 850px;
+    /* border: 2px solid blue; */
+    color: #F2DCE4;
+    background-image: url(./image/ayol.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.card_1 {
+    width: 1152px;
+    height: 675px;
+    position: absolute;
+    top: 128px;
+    left: 170px;
+    /* border: 2px solid black; */
+}
+
+.box_1 {
+    width: 670px;
+    height: 260px;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 245px;
+}
+
+.text_1 h1,
+span {
+    color: #013A4C;
+}
+
+.text_1 h1 {
+    width: 510px;
+    height: 80px;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: -6px;
+    font-size: 76px;
+    line-height: 78px;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.text_1 span {
+    width: 491px;
+    height: 70px;
+    /* border: 2px solid blue; */
+    position: absolute;
+    top: 105px;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    font-family: "Work Sans", sans-serif;
+}
+
+.button_1 {
+    width: 100%;
+    height: 70px;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 190px;
+}
+
+.button_1 button:nth-child(1) {
+    width: 180px;
+    height: 50px;
+    border-radius: 3px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #013A4C;
+    background: #FFD063;
+    font-family: "Work Sans", sans-serif;
+    border:none;
+}
+
+.button_1 button:nth-child(2) {
+    width: 130px;
+    height: 50px;
+    position: absolute;
+    left: 196px;
+    border-radius: 3px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background: #013A4C;
+    font-family: "Work Sans", sans-serif;
+    border: none;
+
+}
+/* container */
+.container{
+    width: 100%;
+    height: 288px;
+   /* border: 2px solid red; */
+   background-color: #013A4C;
+   display: flex;
+   align-items: center;
+}
+.container_1{
+    width: 100%;
+    height: 127.97px;
+    /* display: flex;
+    justify-content: center; */
+    /* border: 2px solid yellow; */
+    
+}
+.container_1 .text_2{
+    width: 528px;
+    height: 38px;
+    position: relative;
+    left: 456px;
+    /* border: 2px solid red; */
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+     color: #FFFFFF;
+    
+    line-height: 38px;
+    /* letter-spacing: 0.7px; */
+font-weight: 400px;
+}
+.image{
+    width: 100%;
+    height: 66px;
+    /* border: 2px solid blue; */
+    position: relative;
+    top: 22px;
+}
+.image>img{
+    width: 100%;
+    height: 66px;
+}
+/* container_2 */
+/*  */
+/*  */
+.container_2{
+    width: 100%;
+    height: 507px;
+    border: 2px solid red;
+    background-color: #013A4C;
+    display: flex;
+    justify-content: center;
+}
+.cards_2{
+   width: 1152px;
+   height: 100%;
+   border: 2px solid blue;
+   display: flex;
+   align-items: center;
+   gap: 3.5px;
+}
+.cards_2 .card_2:nth-child(1){
+    height: 100%;
+    width: 624px;
+    border: 2px solid yellow;
+}
+.card_2_1{
+    width: 501px;
+    height: 501px;
+    border: 2px solid green;
+}
+.card_2_1 img:nth-child(1){
+    width: 501px;
+    height: 501px;
+    position: absolute;
+}
+.card_2_1 img:nth-child(2){
+    width: 501px;
+    height: 501px;
+    background: transparent;
+    position:relative;
+    top: -25px;
+
+}

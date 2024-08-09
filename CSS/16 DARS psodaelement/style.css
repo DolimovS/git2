@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    border: 2px solid red;
+    color: white;
+}
+.box::first-letter{
+    color: red;
+    background: green;
+    border-radius: 10px;
+    padding: 0  5px 0 5px;
+}
+p:hover::first-letter{
+    background: yellow;
+}
+p::selection{
+    background: purple;
+    color: orange;
+}
+.box p::first-line{
+    color: pink;
+    font-size: 35;
+}
+::marker{
+    color: red;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+ .box::before{
+    padding: 50px 150px;
+    font-size: 35px;
+    background: green;
+    color:white;
+    border: 2px solid yellow;
+    content: url(./image_7.jpg);
+    position: absolute;
+    left: 50px;
+}
+/*
+.box::after{
+    padding: 50px 150px;
+    font-size: 35px;
+    background: blue;
+    color: yellow;
+    border: 2px solid black;
+    content: "dolimov";
+    position: absolute;
+    right: 50px;
+} */

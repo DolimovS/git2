@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card_1{
+    max-width: 550px;
+    height: 50px;
+    border: 2px solid grey;
+    display: flex;
+    justify-content: space-between;
+    padding:0 20px;
+    align-items: center;
+    border-radius: 40px 0 0 40px;
+}
+
+input{
+    width: 450px;
+    height: 100%;
+    outline: none;
+    border:none;
+    font-size: 20px;
+}
+.fa-keyboard{
+    color: grey;
+}
+.fa-keyboard:hover{
+    color: black;
+}
+.container{
+    display: flex;
+    height: 100%;
+    max-width: 520px;
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.container i{
+    opacity: 0;
+    position: absolute;
+    width: 450px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container i:focus{
+    opacity: 1;
+    width: 40px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.card_1:focus {
+    border: 2px solid green;
+}
+
+.card_2{
+    width: 60px ;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 0 40px 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid grey;
+    background-color: rgb(207, 204, 204);
+
+}
+.qidiruv{
+  
+    /* border: 2px solid red; */
+    opacity: 0;
+    width: 60px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 40px 40px 0;
+    position: absolute;
+}
+.card_2:hover .qidiruv{
+    opacity: 1;
+    width: 60px;
+    height: 40px;
+    /* border:2px solid red; */
+    background-color: rgba(97, 96, 96, 0.973);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    position: absolute;
+    top: 80px;
+}

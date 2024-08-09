@@ -1,0 +1,48 @@
+body{
+    /* background-color: black; */
+}
+.p{
+    /* color: blue; */
+    font-size: 83px;
+    /* shirf olchami */
+    font-family:  sans-serif;
+    /* bu shirittni o'zgartiradi */
+    font-weight: 600;
+    /* shirftni qalinligini o'zgartiradi */
+    text-align: center;
+    /* text-decoration: line-through; */
+    line-height:100px ;
+    /*  satrlani orasidagi masofani o'zgartiradi*/
+    text-shadow:8px 5px 2px grey ;
+    /* textga soya beradi,  ongga suradi,pastga suradi, soya qalinligi ,rangi */
+
+}
+
+
+
+.box{
+    /* text-align: center; */
+    width: 300px;
+    /* kenglik */
+    height: 300px;
+    /* boyi */
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-color: red;
+    box-shadow: 8px 8px 10px black;
+      
+
+}
+.box>p{
+    color: blue;
+}
+.span{
+    text-align:center;
+    font-size: 150px;
+    text-shadow: 8px 5px 2px grey;
+
+}
+.box2{
+    text-align: center;
+}

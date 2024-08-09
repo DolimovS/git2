@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Amaliyot</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <h1>Manage Employees</h1>
+            <div class="ringht">
+                <button class="nav_delete">Delete</button>
+                <button class="nav_plus">Add New Employee</button>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div >
+            <table >
+                <thead>
+                    <tr>
+                        <th>*</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Address</th>
+                        <th>Phone</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody class="creat">
+              
+                </tbody>
+
+            </table>
+        </div>
+        
+    </section>
+    <div class="modal_wrapper">
+        <div class="modal">
+            <div class="modal_top">
+                <h1>Add Employee</h1>
+                <i class="fa-solid fa-xmark x" onclick="modalExit()"></i>
+            </div>
+            <form class="form_creat">
+                <label >
+                    
+                    <input  id="input_name" placeholder="Name" type="text">
+                </label>
+                <label >
+                    
+                    <input id="input_email" placeholder="Email" type="email">
+                </label>
+                <label >
+                    
+                    <input id="input_address" placeholder="Address" type="text">
+                </label>
+                <label >
+                    
+                    <input id="input_number" placeholder="Number" type="number">
+                </label>
+                <ul class="messege"></ul>
+                <div class="modal_footer">
+                    <button type="button" onclick="modalExit()">Cancel</button>
+                    <button>Add</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <div class="modal_edit_wrapper">
+        <div class="modal_edit">
+            <div class="modal_top">
+                <h1>Add Employee</h1>
+                <i class="fa-solid fa-xmark x" onclick="modalEditExit()"></i>
+            </div>
+            <form class="form_edit_creat">
+                <label >
+                    
+                    <input  id="input_name" placeholder="Name" type="text" required>
+                </label>
+                <label >
+                    
+                    <input id="input_email" placeholder="Email" type="email" required>
+                </label>
+                <label >
+                    
+                    <input id="input_address" placeholder="Address" type="text" required>
+                </label>
+                <label >
+                    
+                    <input id="input_number" placeholder="Number" type="number" required>
+                </label>
+                <ul class="messege"></ul>
+                <div class="modal_footer">
+                    <button type="button" onclick="modalEditExit()">Cancel</button>
+                    <button>Add</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+</body>
+<script src="./js.js"></script>
+</html>

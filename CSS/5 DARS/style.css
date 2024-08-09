@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    /* border: ; */
+    background-color: green;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+section{
+    background-color: blueviolet;
+}
+nav .box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 100px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    gap: 20px;
+}
+ul a{
+   text-decoration: none;
+   color: white;
+}
+#til{
+    width: 50px;
+    height: 35px;
+    border: none;
+    background-color: green;
+}
+button{
+    height: 35px;
+   
+}
+.kirish{
+   border: 2px solid blue;
+   width: 65px;
+   border-radius: 5px;
+}
+button a{
+    text-decoration: none;
+}
+.search{
+    border: 2px solid brown;
+    border-radius: 5px;
+    width: 150px;
+}
+
+section{
+    width: 100%;
+    height: 650px;
+    /* border: 2px solid red; */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 1000px;
+    height: 400px;
+    /* border: 2px solid red; */
+    background-color: blueviolet ;
+    display: flex;
+    justify-content: space-between;
+}
+.card1{
+    width:300px;
+    height: 400px;
+    /* border: 2px solid blue; */
+    border-radius: 40px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.founder1{
+    color: grey;
+
+}
+.avatar1 img{
+    margin-top: 10px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.text{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.card1 button{
+    height: 35px;
+    width: 170px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.card2{
+    width: 300px;
+    height: 400px;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+    background-color: white;
+    border-radius: 40px;
+}
+.texr2{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+}
+.chumoli{
+    border-radius: 40px  40px 0 0;
+    width: 300px;
+    height: 150px;
+}
+.card2 span{
+    margin-left: 45px;
+    color: grey;
+
+}
+.subscribers{
+    margin-top: 15px;
+    display: flex;
+    gap: 80px;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+}
+.subscribers h1{
+    color: rgb(58, 58, 201);
+}
+.subscribers p{
+    color: grey;
+}
+.card2 button{
+    width: 250px;
+    height: 35px;
+    margin-top: 15px;
+    border-radius: 20px;
+    background-color: rgb(234, 234, 44);
+    border: none;
+}
+.card2 .p{
+    margin-top: 5px;
+    /* border: 2px solid red; */
+    width: 250px;
+    color: rgb(98, 97, 97);
+}
+
+
+
+
+
+
+.card3{
+    width: 300px;
+    height: 400px;
+    border: 2px solid blue;
+
+}

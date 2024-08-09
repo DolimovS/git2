@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container header">
+            <h1>CRUD....</h1>
+            <button id="create__btn">Crete User</button>
+           
+        </div>
+        <br>
+        <hr>
+    </header>
+
+    <div class="hero_wrepper">
+        <div class="container hero">
+            <table border="1">
+                <thead>
+                    <tr>
+                    <th>*</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Location</th>
+                    <th >Action</th>
+                    </tr>
+                </thead>
+                <tbody class="create">
+          
+                </tbody>
+            </table>
+
+
+            <div class="modal_wrapper">
+                <div class="modal">
+                    <form id="form_creat" >
+                        <label >
+                            <input id="input_name" placeholder="Name" type="text">
+                        </label>
+                        <label >
+                            <input id="input_email"  placeholder="Email" type="email">
+                        </label>
+                        <label >
+                            <input id="input_phone" placeholder="Phone" type="tel">
+                        </label>
+                        <label >
+                            <input id="input_location" placeholder="Location" type="text">
+                        </label>
+                        <ul class="message"></ul>   
+                       <div class="button">
+                   
+                        <button id="close_btn">Close</button>
+                        <button>Submit</button>
+                       </div> 
+                    </form>
+                </div>
+            </div>
+
+
+            <div class="modal_idet_wrapper">
+                <div class="modal_edit">
+                    <form id="form_edit" >
+                        <label >
+                            <input id="input_name" placeholder="Name" type="text">
+                        </label>
+                        <label >
+                            <input id="input_email"  placeholder="Email" type="email">
+                        </label>
+                        <label >
+                            <input id="input_phone" placeholder="Phone" type="tel">
+                        </label>
+                        <label >
+                            <input id="input_location" placeholder="Location" type="text">
+                        </label>
+                        <ul class="message"></ul>
+                       <div class="button">
+                   
+                        <button id="close_btn1">Close</button>
+                        <button>Submit</button>
+                       </div> 
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="./js.js"></script>
+
+</html>

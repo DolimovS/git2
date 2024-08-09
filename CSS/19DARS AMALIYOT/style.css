@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 96px;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+
+}
+.logo{
+    padding: 14px 66px 7.49px 64.65px;
+}
+.text{
+    padding: 0 65.45px 10.82px 64.64px;
+}
+.center{
+    display: flex;
+    flex-direction: row;
+    gap: 61px
+}
+.center>a{
+     text-decoration: none;
+     color: #2D2E2E;
+     /* display: flex;
+     flex-direction: row; */
+}

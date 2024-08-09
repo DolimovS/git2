@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+}
+
+button{
+    width: 80px;
+    height: 35px;
+    border-radius: 8px;
+    background-color: springgreen;
+    color: white;
+    border: none;
+}
+
+

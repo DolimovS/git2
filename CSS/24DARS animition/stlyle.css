@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .animation{
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    animation: harakat 4s infinite;
+}
+@keyframes harakat{
+    0%{
+         width: 200px;
+        height: 200px;
+        background-color: orange;
+
+    }
+    45%{
+        margin-top: 120px;
+    }
+    70%{
+        border-radius: 50%;
+    }
+    100%{
+        margin-left: 100%;
+    }
+} */
+.stadion{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./image/106-1069752_american-football-field-png-soccer-specific-stadium-transparent.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.green{
+    width:25px;
+    height: 25px;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 47.5%;
+    left: 225px;
+    border-radius: 50%;
+  background-color:white;
+  z-index: 2;
+
+    
+
+}
+.green_2{
+    width: 25px;
+    height: 30px;
+    background-color: #50911D;
+    z-index: 2;
+    position: absolute;
+    top: 68.4% ;
+    left: 825px;
+}
+.green_3{
+    width: 45px;
+    height: 30px;
+    background-color: #50911D;
+    z-index: 2;
+    position: absolute;
+    top: 185px ;
+    left: 1360px;
+    /* border: 5px solid red; */
+}
+/* top */
+.top{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 47.5%;
+    left: 222px;
+    animation: top 5s infinite;
+    z-index: 3;
+}
+@keyframes top{
+    0%{
+
+    }
+    40%{
+        margin-top: -120px;
+        transform: translateX(300px);
+    }
+    60%{
+        margin-top :160px;
+        transform: translateX(600px);
+
+    }
+    80%{
+        margin-top:-160px;
+        transform: translateX(1100px);
+    }
+    100%{
+        transform: translateX(1280px);
+    }
+}
+/* varata */
+.varata{
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    top: 41.5%;
+    left: 46px;
+}
+
+/* himoya */
+.himoya{
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    top: 17%;
+    left: 430px;
+}
+/* yarim himoya */
+.yarim_himoya{
+    width: 140px;
+    height: 150px;
+    position: absolute;
+    top: 53%;
+    left: 740px;
+}
+/* goll */
+.goll{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 70px;
+    left: 1270px;
+}

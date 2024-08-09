@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contener{
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+    
+}
+.contener:hover .box{
+    width: 100%;
+    cursor: pointer;
+}
+    
+
+.box{
+    width: 100px;
+    height: 100px;
+    transition: 2s;
+    cursor: pointer;
+    background: url(./manzara.jpg);
+    background-size:cover;
+    
+
+
+}
+
+/* .box:nth-child(1){ */
+    /* background-color: red; */
+    
+    
+    /* border-radius: 50%; */
+/* } */
+/* .contener:hover .box:nth-child(1){ */
+    /* width: 200px; */
+    /* background-color: black; */
+   
+
+/* } */
+/* .box:nth-child(2){
+    background-color:blueviolet;
+}
+.contener:hover .box:nth-child(2){
+      width: 250px;
+    background-color:aqua;
+}
+.box:nth-child(3){
+    background-color:blanchedalmond;
+}
+.contener:hover .box:nth-child(3){
+    width: 170px;
+    background-color: yellow;
+}
+.box:nth-child(4){
+    background-color: white;
+}
+.contener:hover .box:nth-child(4){
+    width: 50px;
+    background-color: red;
+}
+.box:nth-child(5){
+    background-color: yellow;
+}
+.contener:hover .box:nth-child(5){
+    width: 300px;
+    background-color: black;
+} */
+/* 
+.box1{
+    height: 700px;
+    width: 100%;
+    border: 2px solid red;
+    background: url(./manzara.jpg);
+} */

@@ -1,0 +1,478 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif !important;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1920px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    overflow: hidden;
+}
+
+button {
+    border: none;
+}
+
+/* navbar */
+nav {
+    width: 1916px;
+    height: 140px;
+    /* border: 2px solid red; */
+    display: flex;
+    position: absolute;
+    background-color: white;
+
+}
+
+.logo {
+    margin: 55px 252px 55px 156px;
+}
+
+.link {
+    margin: 57px 79px 57px 0;
+    /* border: 2px solid red; */
+    /* display: flex; */
+
+}
+
+.link>a {
+    width: 94px;
+    height: 26px;
+    color: rgb(161, 139, 127);
+    font-family: Proxima Nova;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-right: 89px;
+}
+
+/* button */
+
+nav>button {
+    width: 337px;
+    height: 50px;
+    border: 1px solid rgb(161, 139, 127);
+    border-radius: 8px;
+    display: flex;
+    margin: 45px 65px 45px 0;
+}
+
+nav>button>input {
+    font-size: 25px;
+
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    border-radius: 8px 0 0 8px;
+
+}
+
+nav>button>a>img {
+    width: 18.85px;
+    height: 18.85px;
+    margin: 12px 10px;
+    /* background: white; */
+    /* background: rgb(161, 139, 127); */
+}
+
+.icons {
+    margin: 45px 0;
+}
+
+.icons>a {
+    margin-right: 65px;
+}
+
+section {
+    width: 100%;
+    /* border: 2px solid blue; */
+
+}
+
+section>.text {
+
+    margin: 229px 755px 90px 749px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section>.text>h1 {
+    width: 354px;
+    height: 61px;
+    color: rgb(159, 98, 51);
+    font-family: Proxima Nova;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 61px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.container {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.card_1 {
+    width: 45%;
+    border-right: 2px Middle rgb(220, 187, 69);
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 69px;
+}
+
+.text1>h1 {
+    color: rgb(159, 98, 51);
+    font-family: Proxima Nova;
+    font-size: 31px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: right;
+    width: 320px;
+    height: 38px;
+    display: flex;
+    justify-content: end;
+    margin-left: 368px;
+    margin-bottom: 22px;
+
+}
+
+.image {
+    height: 350px;
+    width: 683px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    overflow: hidden;
+    margin-top: 272px;
+
+}
+
+.text1>p {
+    width: 683px;
+    height: 144px;
+    color: rgb(124, 124, 124);
+    font-family: Proxima Nova;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: right;
+    margin-bottom: 22px;
+}
+
+.text2>h1 {
+    color: rgb(159, 98, 51);
+    font-family: Proxima Nova;
+    font-size: 31px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: right;
+    width: 320px;
+    height: 38px;
+    margin: 294px 0 22px 358px;
+
+}
+
+.text2>p {
+    width: 683px;
+    height: 144px;
+    color: rgb(124, 124, 124);
+    font-family: Proxima Nova;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: right;
+}
+
+/* card_2 */
+.card_2 {
+    width: 2px;
+    height: 1659px;
+    margin-top: 69px;
+    border: 2px solid rgb(220, 187, 69);
+}
+
+/* card_3 */
+
+.card_3 {
+    width: 45%;
+}
+
+.card_3>.text_1 h1 {
+    color: rgb(159, 98, 51);
+    font-family: Proxima Nova;
+    font-size: 31px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 362px;
+    height: 38px;
+    margin: 312px 0 22px 0;
+
+}
+
+.card_3>.text_1 p {
+    width: 680px;
+    height: 152px;
+    color: rgb(124, 124, 124);
+    font-family: Proxima Nova;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    /* border: 2px solid red; */
+}
+
+.card_3>.img_21 {
+    margin-top: 268px;
+    margin-bottom: 230px;
+}
+
+/* container_2 */
+.containar_2{
+    width: 1920px;
+height: 242px;
+background-color: rgb(220, 187, 69);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.boshsahifa{
+    width: 1920px;
+height: 303px;
+background: rgba(0, 0, 0, 0.6);
+
+background-image: url(./img/image\ 19\ \(1\).png);
+background-position: center;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.boshsahifa>button{
+    width: 301px;
+height: 46px;
+
+border-radius: 8px;
+
+background: rgb(220, 187, 69);
+}
+.boshsahifa a{
+    width: 100%;
+    height: 100%;
+    color: rgb(0, 0, 0);
+font-family: Proxima Nova;
+font-size: 21px;
+font-weight: 400;
+/* line-height: 26px;
+letter-spacing: 0%;
+text-align: left; */
+}
+
+
+
+/* footer_2 */
+.footer_2 {
+    width: 1920px;
+    height: 253px;
+    display: flex;
+    background: linear-gradient(180.46deg, rgb(161, 140, 128) -58.09%, rgb(76, 59, 49) 121.521%);
+}
+.footer_2>.footer_logo{
+    margin: 72px 0 22px 156px;
+  
+}
+
+.footer_2>.footer_logo>p{
+    margin-top: 22px;
+    color: rgb(210, 210, 210);
+font-family: Proxima Nova;
+font-size: 26px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: left;
+}
+.footer_2>.footer_icons{
+    margin: 90px 0 122px 149px;
+    display: flex;
+    gap: 5px;
+
+}
+.footer_2>.footer_icons img{
+    width: 32.26px;
+height: 32.31px;
+}
+.footer_2>.links_1{
+    display: flex;
+    flex-direction: column;
+    margin: 75px 0 122px 149px;
+    gap: 12px;
+}
+.footer_2>.links_1>a{
+    color: rgb(210, 210, 210);
+font-family: Proxima Nova;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+.footer_2>.links_2{
+    display: flex;
+    flex-direction: column;
+    margin: 75px 242px 88px 178px;
+    gap: 12px;
+}
+.footer_2>.links_2>a{
+    color: rgb(210, 210, 210);
+font-family: Proxima Nova;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+
+
+
+
+
+
+/* carta */
+.carta{
+    width: 221px;
+height: 140.2px;
+border: 2px solid red;
+margin: 57px 156px 55px 0;
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+.container{
+    width: 100%;
+border: 2px solid red;
+display: flex
+}
+
+.card_1{
+    width: 685px;
+    border: 2px solid black;
+}
+.card_1 h1{
+    color: rgb(159, 98, 51);
+font-family: Proxima Nova;
+font-size: 31px;
+font-weight: 400;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: right;
+margin-bottom: 22px;
+
+}
+.card_1>.text1>p{
+    Width:
+683px;
+Height:
+144px;
+border: 2px solid orange;
+margin-bottom: 22px;
+}
+.card_1>.text2>h1{
+    Width:250px;
+Height:38px;
+margin-left: 420px;
+margin-top: 294px;
+
+}
+.card_1>.text2>p{
+    width: 683px;
+    height: 144px;
+    margin-bottom: 307px;
+    border: 2px solid blue;
+}
+
+.card_1 p{
+    color: rgb(124, 124, 124);
+font-family: Proxima Nova;
+font-size: 21px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: right;
+}
+.image
+{   border: 2px solid red;
+    Width:683px;
+    Height:622.98px;
+    background-image: url(./img/image\ 18.png);
+    background-repeat: no-repeat;
+    background-position: end;
+}
+.image>div{
+    width: 100%;
+    height: 43%;
+    background-color: white;
+}
+
+.container>.card_2{
+       height: 0;
+       width:  1859px;
+       border: 2px solid  rgb(220, 187, 69);
+       transform: rotate(90deg);
+       position: relative;
+       top: 1041px;
+       left: -500px;
+}
+ */

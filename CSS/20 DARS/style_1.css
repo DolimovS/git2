@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100dvh;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(229, 229, 229);
+
+}
+
+section {
+    width: 1512px;
+    height: 982px;
+    /* border: 2px solid blue; */
+    background-color: white;
+    overflow: hidden;
+
+}
+/* navbar */
+
+nav {
+    height: 118px;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left {
+    padding: 20px 0 0 120px;
+
+}
+
+.center {
+    display: flex;
+    gap: 45px;
+}
+
+.center>a {
+    text-decoration: none;
+    color: black;
+    Font-weight: 700;
+    Font-size: 18px;
+    Letter-spacing: 0%;
+}
+
+.right {
+    padding: 0 120px 0 0;
+    display: flex;
+    gap: 42px;
+
+}
+
+.right>button {
+    width: 100px;
+    height: 40px;
+    border-radius: 12px;
+    border: 1px solid rgb(131, 131, 131);
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+.right>button>p {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+/* hover buttom */
+
+.right>button:hover {
+    background-color: black;
+    color: white;
+}
+/* text */
+
+.text {
+    width: 572px;
+    height: 463px;
+    /* border: 1px solid red; */
+    position: relative;
+    top: 72px;
+    left: 120px;
+}
+
+.text>h1 {
+    width: 572px;
+    height: 216px;
+    color: rgb(0, 0, 0);
+    /* font-family: Poppins; */
+    font-size: 48px;
+    font-weight:700;
+    line-height: 72px;
+    letter-spacing: 15px;
+    text-align: left;
+    /* border: 2px solid blue; */
+
+}
+
+.text>p {
+    padding-top: 22px;
+    width: 419px;
+    height: 101px;
+    color: rgb(131, 131, 131);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.text>button {
+    margin-top: 50px;
+    width: 200px;
+    height: 74px;
+    box-sizing: border-box;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 24px;
+
+    box-shadow: 0px 20px 20px 0px rgba(225, 63, 159, 0.15);
+    background: linear-gradient(270.00deg, rgba(150, 84, 157, 0.2), rgba(122, 231, 235, 0.2) 49.959%, rgba(200, 42, 136, 0.2) 107%);
+}
+
+.text>button>p {
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight:bold;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+/* kontainer */
+.orta{
+    Width: 1168.5px;
+    Height: 727.5px;
+    position:relative;
+    bottom:;
+    Left: 577px;
+
+
+
+
+}
